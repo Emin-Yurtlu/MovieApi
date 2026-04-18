@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Core/">
+    <Project Path="Core/MovieApi.Application/MovieApi.Application.csproj" Id="4bed90a8-5f3d-42c2-94d3-52e721c10198" />
     <Project Path="Core/MovieApi/MovieApi.Domain.csproj" />
   </Folder>
   <Folder Name="/Frontends/" />

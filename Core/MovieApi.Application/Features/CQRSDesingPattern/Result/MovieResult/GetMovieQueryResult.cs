@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieApi.Domain.Entities
+namespace MovieApi.Application.Features.CQRSDesingPattern.Result.MovieResult
 {
-    public class Movie
+    public class GetMovieQueryResult
     {
+        
         public int MovieId { get; set; }
         public string Title { get; set; }
         public string CoverImageUrl { get; set; }
@@ -17,6 +18,5 @@ namespace MovieApi.Domain.Entities
         public DateTime ReleaseDate { get; set; }
         public string CreatedYears { get; set; }
         public bool Status { get; set; }
-
     }
 }
