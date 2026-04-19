@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MovieApi.Application.Features.CQRSDesingPattern.Handlers.CategoryHandlers
 {
-    internal class UpdateCategoryCommandHandler
+    public class UpdateCategoryCommandHandler
     {
         public readonly MovieContext _context;
 
@@ -17,7 +17,7 @@ namespace MovieApi.Application.Features.CQRSDesingPattern.Handlers.CategoryHandl
             _context = context;
 
         }
-        public async void Handle(UpdateCategoryCommand command)
+        public async Task Handle(UpdateCategoryCommand command)
         {
             var value = await _context.Catogoryies.FindAsync(command.CategoryId);
             value.CategoryName= command.CategoryName;
