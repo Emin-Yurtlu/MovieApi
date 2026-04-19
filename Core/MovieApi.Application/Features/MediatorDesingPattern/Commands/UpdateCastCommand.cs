@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MovieApi.Application.Features.MediatorDesingPattern.Commands
 {
-    public class UpdateCatsCommand: IRequest
+    public class UpdateCastCommand: IRequest
     {
         public int CastId { get; set; }
         public string Title { get; set; }
@@ -18,4 +18,4 @@ namespace MovieApi.Application.Features.MediatorDesingPattern.Commands
         public string? Biography { get; set; }
     }
 }
-}
+
