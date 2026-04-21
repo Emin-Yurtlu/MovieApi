@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using MovieApi.Application.Features.MediatorDesingPattern.Commands;
+using MovieApi.Application.Features.MediatorDesingPattern.Commands.CastCommands;
 using MovieApi.Persistence.Context;
 using System;
 using System.Collections.Generic;

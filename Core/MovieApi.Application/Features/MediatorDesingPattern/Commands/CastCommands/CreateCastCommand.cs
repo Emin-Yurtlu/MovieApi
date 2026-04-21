@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieApi.Application.Features.MediatorDesingPattern.Commands
+namespace MovieApi.Application.Features.MediatorDesingPattern.Commands.CastCommands
 {
-    public class UpdateCastCommand: IRequest
+    public class CreateCastCommand: IRequest
     {
-        public int CastId { get; set; }
+        
         public string Title { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -18,4 +18,3 @@ namespace MovieApi.Application.Features.MediatorDesingPattern.Commands
         public string? Biography { get; set; }
     }
 }
-

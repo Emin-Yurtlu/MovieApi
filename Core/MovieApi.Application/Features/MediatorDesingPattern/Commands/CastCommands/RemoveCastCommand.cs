@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieApi.Application.Features.MediatorDesingPattern.Commands
+namespace MovieApi.Application.Features.MediatorDesingPattern.Commands.CastCommands
 {
     public class RemoveCastCommand: IRequest
     {
